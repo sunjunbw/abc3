@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul li b span {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+ul li {
+  width: 100%;
+  position: relative;
+  padding-left: 30px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc; }
+  ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px; }
+  ul li b, ul li a {
+    margin-left: 50px;
+    display: block;
+    height: 20px;
+    line-height: 20px; }
+  ul li b {
+    padding-right: 100px; }
+    ul li b span {
+      display: block; }
+    ul li b time {
+      position: absolute;
+      right: 3px;
+      top: 3px; }
+  ul li a {
+    margin-top: 10px; }
+
+/*# sourceMappingURL=a.css.map */
